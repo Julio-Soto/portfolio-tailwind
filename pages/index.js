@@ -15,10 +15,10 @@ export default function Home() {
       <main className='bg-white px-10'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-10 flex justify-between'>
-            <h2 className='text-xl'>Hello Friend</h2>
+            <h2 className='text-xl font-burtons'>Hello Friend</h2>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill className='cursor-pointer'/></li>
-              <li><a className='bg-cyan-500 text-white px-4 py-2 rounded-md ml-8' href='#'>resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='#'>resume</a></li>
             </ul>
           </nav>
         </section>
