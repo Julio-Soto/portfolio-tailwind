@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillTwitterCircle,AiFillLinkedin,AiFillYoutube} from 'react-icons/ai'
-
+import deved from '../public/dev-ed-wave.png'
 export default function Home() {
   return (
     <div>
@@ -29,7 +29,7 @@ export default function Home() {
               Join me down bellow and let's get cracking!
             </p>
           </div>
-          <div>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <AiFillTwitterCircle/>
             <AiFillLinkedin/>
             <AiFillYoutube/>
