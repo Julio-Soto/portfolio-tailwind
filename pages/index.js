@@ -34,9 +34,13 @@ export default function Home() {
             <AiFillLinkedin/>
             <AiFillYoutube/>
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20'>
-            <Image src={deved} alt='hero' />
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+            <Image src={deved} alt='hero' layout='fill' objectFit='cover' />
           </div>
+        </section>
+        <section>
+          <h3 className='text-3xl py-1'>Services I offer</h3>
+          <p className='text-md py-2 leading-8 text-gray-800'></p>
         </section>
       </main>
 
