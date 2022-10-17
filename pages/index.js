@@ -56,9 +56,27 @@ export default function Home() {
           <p className='text-md py-2 leading-8 text-gray-800'>
             I offer from a wide range of services, including brand design, programming, and teaching.
           </p>
-          <div>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
             <Image src={design} alt='' width={100} height={100} />
             <h3 className='text-lg font-medium pb-2 pt-8'>Beautiful Designs</h3>
+            <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
+            <h4 className='py-4 text-teal-600'>Desing tools I use.</h4>
+            <p className='text-gray-800 py-1'>Photoshop</p>
+            <p className='text-gray-800 py-1'>Illustrator</p>
+            <p className='text-gray-800 py-1'>Figma</p>
+          </div>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <Image src={code} alt='' width={100} height={100} />
+            <h3 className='text-lg font-medium pb-2 pt-8'>Elegant Code</h3>
+            <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
+            <h4 className='py-4 text-teal-600'>Desing tools I use.</h4>
+            <p className='text-gray-800 py-1'>Photoshop</p>
+            <p className='text-gray-800 py-1'>Illustrator</p>
+            <p className='text-gray-800 py-1'>Figma</p>
+          </div>
+          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <Image src={consulting} alt='' width={100} height={100} />
+            <h3 className='text-lg font-medium pb-2 pt-8'>Great Consulting</h3>
             <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
             <h4 className='py-4 text-teal-600'>Desing tools I use.</h4>
             <p className='text-gray-800 py-1'>Photoshop</p>
