@@ -37,7 +37,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Dominic DiCocco</h2>
             <h3 className='text-2xl py-2'>Developer and Designer</h3>
-            <p className='text-medium py-5 leading-8 text-gray-800'>Freelancer providing services for programing and design content needs.
+            <p className='text-medium py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Freelancer providing services for programing and design content needs.
               Join me down bellow and let's get cracking!
             </p>
           </div>
@@ -46,7 +46,7 @@ export default function Home() {
             <AiFillLinkedin/>
             <AiFillYoutube/>
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} alt='hero' layout='fill' objectFit='cover' />
           </div>
         </section>
@@ -62,32 +62,34 @@ export default function Home() {
           <p className='text-md py-2 leading-8 text-gray-800'>
             I offer from a wide range of services, including brand design, programming, and teaching.
           </p>
-          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-            <Image src={design} alt='' width={100} height={100} />
-            <h3 className='text-lg font-medium pb-2 pt-8'>Beautiful Designs</h3>
-            <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
-            <h4 className='py-4 text-teal-600'>Desing tools I use.</h4>
-            <p className='text-gray-800 py-1'>Photoshop</p>
-            <p className='text-gray-800 py-1'>Illustrator</p>
-            <p className='text-gray-800 py-1'>Figma</p>
-          </div>
-          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-            <Image src={code} alt='' width={100} height={100} />
-            <h3 className='text-lg font-medium pb-2 pt-8'>Elegant Code</h3>
-            <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
-            <h4 className='py-4 text-teal-600'>Desing tools I use.</h4>
-            <p className='text-gray-800 py-1'>Photoshop</p>
-            <p className='text-gray-800 py-1'>Illustrator</p>
-            <p className='text-gray-800 py-1'>Figma</p>
-          </div>
-          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-            <Image src={consulting} alt='' width={100} height={100} />
-            <h3 className='text-lg font-medium pb-2 pt-8'>Great Consulting</h3>
-            <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
-            <h4 className='py-4 text-teal-600'>Desing tools I use.</h4>
-            <p className='text-gray-800 py-1'>Photoshop</p>
-            <p className='text-gray-800 py-1'>Illustrator</p>
-            <p className='text-gray-800 py-1'>Figma</p>
+          <div className='lg:flex gap-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={design} alt='' width={100} height={100} />
+              <h3 className='text-lg font-medium pb-2 pt-8'>Beautiful Designs</h3>
+              <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
+              <h4 className='py-4 text-teal-600'>Desing tools I use.</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+              <p className='text-gray-800 py-1'>Figma</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={code} alt='' width={100} height={100} />
+              <h3 className='text-lg font-medium pb-2 pt-8'>Elegant Code</h3>
+              <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
+              <h4 className='py-4 text-teal-600'>Desing tools I use.</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+              <p className='text-gray-800 py-1'>Figma</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={consulting} alt='' width={100} height={100} />
+              <h3 className='text-lg font-medium pb-2 pt-8'>Great Consulting</h3>
+              <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
+              <h4 className='py-4 text-teal-600'>Desing tools I use.</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+              <p className='text-gray-800 py-1'>Figma</p>
+            </div>
           </div>
         </section>
         <section>
