@@ -7,6 +7,12 @@ import deved from '../public/dev-ed-wave.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
+import web1 from '../public/web1.png'
+import web2 from '../public/web2.png'
+import web3 from '../public/web3.png'
+import web4 from '../public/web4.png'
+import web5 from '../public/web5.png'
+import web6 from '../public/web6.png'
 
 
 
@@ -19,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white px-10'>
+      <main className='bg-white px-10 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-10 flex justify-between'>
             <h1 className='text-xl font-burtons'>DevelopedByJulio</h1>
@@ -83,6 +89,30 @@ export default function Home() {
             <p className='text-gray-800 py-1'>Illustrator</p>
             <p className='text-gray-800 py-1'>Figma</p>
           </div>
+        </section>
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Portfolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              Since the beginning of my journey as a freelance designer and developer, I've done remote work for 
+              <span className='text-teal-500'> agencies </span>
+              consulted for <span className='text-teal-500'> startups </span>
+              and collaborated with talented people to create digital products for
+              both bussiness and consumer use.
+            </p>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              I offer from a wide range of services, including brand design, programming, and teaching.
+            </p>
+          </div>
+          <div>
+            <Image src={web1} alt=''/>
+            <Image src={web2} alt=''/>
+            <Image src={web3} alt=''/>
+            <Image src={web4} alt=''/>
+            <Image src={web5} alt=''/>
+            <Image src={web6} alt=''/>
+          </div>
+
         </section>
       </main>
 
