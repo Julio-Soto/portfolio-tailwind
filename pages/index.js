@@ -106,13 +106,25 @@ export default function Home() {
               I offer from a wide range of services, including brand design, programming, and teaching.
             </p>
           </div>
-          <div>
-            <Image src={web1} alt=''/>
-            <Image src={web2} alt=''/>
-            <Image src={web3} alt=''/>
-            <Image src={web4} alt=''/>
-            <Image src={web5} alt=''/>
-            <Image src={web6} alt=''/>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web1} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web2} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web3} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web4} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web5} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web6} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+            </div>
           </div>
 
         </section>
